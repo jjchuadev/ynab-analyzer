@@ -6,20 +6,20 @@
   "description": "To quickly get started building an App with the YNAB API.",
   "bin": "bin/start.js",
   "scripts": {
-    "start": "webpack-dev-server --open --hot",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server --open --hot",
     "build": "NODE_ENV='production' webpack --progress"
   },
   "devDependencies": {
-    "css-loader": "^3.5.3",
-    "npm-check-updates": "^4.1.2",
-    "vue": "2.6.11",
-    "vue-loader": "^15.9.2",
-    "vue-server-renderer": "2.6.11",
-    "vue-template-compiler": "2.6.11",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3",
-    "xhr": "^2.5.0",
-    "ynab": "^1.19.0"
+    "css-loader": "^6.7.3",
+    "npm-check-updates": "^16.10.10",
+    "vue": "3.2.47",
+    "vue-loader": "^17.1.0",
+    "vue-server-renderer": "2.7.14",
+    "vue-template-compiler": "2.7.14",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0",
+    "xhr": "^2.6.0",
+    "ynab": "^1.49.0"
   }
 }
